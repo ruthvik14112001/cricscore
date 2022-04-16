@@ -2,7 +2,7 @@ import tkinter
 from tkinter import *
 from tkinter.ttk import *
 from typing import Counter
-#from PIL import ImageTk,Image
+#from PIL import ImageTk, Image
 from tkinter import FALSE
 
 # window design
@@ -53,14 +53,15 @@ for frame in (frame1,frame2, frame3,frame4):
 
 # Heading
 
-mainhead= tkinter.Label(frame1,text="Interactive Cricket Score Board", fg='#8B298E', font=("Segoe UI", 30),bg="#ECF0F3")
+mainhead= tkinter.Label(frame1,text="Ruthvik Cricket Score Board", fg='#8B298E', font=("Segoe UI", 30),bg="#ECF0F3")
 mainhead.place(relx=0.5, rely = 0.1 , anchor="center") 
           
 # Image 
 
-#img = ImageTk.PhotoImage(Image.open("C:\Users\Karthikkamsala\OneDrive\Desktop\ruthvik.jpeg"))
+#img = ImageTk.PhotoImage(Image.open("C:\Users\Ruthvik\Documents\my projects\Cric\cric.png"))  
 #panel = tkinter.Label(frame1, image = img)
 #panel.place(relx = 0.5, rely = 0.4 , anchor="center")
+
 
 # Links (Buttons)
 
